@@ -9,7 +9,7 @@ function getcomputerchoice(){
 function getplayerchoice(){
     let x;
     console.log("Choose one of the following: ");
-    console.log("rock,paper or scissor");
+    console.log("rock,paper or scissors");
     console.log("Please type your choise as written above or it won't be taken");
     x=prompt();
     if(x=="rock"){
@@ -18,7 +18,7 @@ function getplayerchoice(){
      else if (x=="paper"){
         return "2"
      }
-     else if(x=="scissor"){
+     else if(x=="scissors"){
         return "3"
      }
    
